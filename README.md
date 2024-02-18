@@ -1,38 +1,34 @@
-ShogunOS is a fastbooting terminal based linux distribution. It ships with a set of hacking tools for jobs like recon, brute-forcing
-web-servers, cracking and protection. I took the idea of amnesia operating systems like Tails and decided to create an envirement similar for 
-hacking rather than privacy. Once your done hakcing the system will wipe and restart new each boot. Here's how it works;
+ShogunOS is a fast and minimal terminal based linux tool. It ships with a set of hacking tools for jobs like recon, brute-forcing
+web-servers, cracking and protection.
 
 
 ```markdown
-   _____ __                             __   _____
+    _____ __                            ____  _____
   / ___// /_  ____  ____ ___  ______  / __ \/ ___/
   \__ \/ __ \/ __ \/ __ `/ / / / __ \/ / / /\__ \ 
  ___/ / / / / /_/ / /_/ / /_/ / / / / /_/ /___/ / 
 /____/_/ /_/\____/\__, /\__,_/_/ /_/\____//____/  
                  /____/                           
-      ,_._._._._._._._._|__________________________________________________________ 
-      |_|_|_|_|_|_|_|_|_|_________________________________________________________/ 
-                        |                                                           
-...percieve that which cannot be seen by the eye
+ ...percieve that which cannot be seen by the eye
+  ,_._._._._._._._._|__________________________________________________________ 
+  |_|_|_|_|_|_|_|_|_|_________________________________________________________/
 
 ```
 
-Once you download the ISO, you can boot it qemu, virtualbox or live usb (beta). Once the system loads up you'll be prompted 
-by the Ubuntu installer. Follow these steps to configure the terminal. 
+Once you download the repo, you can boot it qemu, distrobox, virtualbox or live usb (beta).
 
-1. On the first page, tab all the way down until your cursor reaches the "Help" menu in the upper right hanf corner
+Dependecies: 
+   docker 
+   docker-compose
+   python
+   pip
 
-2. Enter Shell
-
-3. You'll be prompted by the markdown above. Create a user:
+1. Setup
 
 ```
-   adduser username
-   password: password
-   # give sudo privilages
-   usermnod -aG sudo username
-   su - username
-   sudo apt update && upgrade -y #ptional
+   cd shogunos
+   sudo chmod +x shogun.sh
+   ./shogun.sh (sudo)
 
 ```
  For best experience, enable ssh
