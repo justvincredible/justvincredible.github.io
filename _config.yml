@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme
 title: ShogunOS
 description: [A terminal based hacking distro and linux quickboot for virtual machines and live usb.]
+show_downloads: true
