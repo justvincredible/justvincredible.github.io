@@ -2,4 +2,4 @@ remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme
 title: ShogunOS
-description: [A terminal based hacking distro in linux quickboot for qemu , virtualbox and live usb.]
+description: [A terminal based hacking distro and linux quickboot for virtual machines and live usb.]
