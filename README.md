@@ -57,17 +57,17 @@ sudo service ssh restart
    
 Toolset:
 
-Lynis -
-Metasploit -
-SET - 
-nmap -
-netcat -
-hydra -
-docker/docker-compose - 
-reaver - 
-anonsurf - 
-macchanger - 
+Lynis 
+Metasploit 
+SET 
+nmap 
+netcat 
+hydra 
+docker/docker-compose 
+reaver 
+anonsurf 
+macchanger 
 tor
-proxychains4 - 
+proxychains4 
 
 Remember, with great power comes great responsibility. Basically, dont be a jerk  use it for learning. 
