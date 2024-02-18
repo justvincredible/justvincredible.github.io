@@ -35,7 +35,7 @@ by the Ubuntu installer. Follow these steps to configure the terminal.
    sudo apt update && upgrade -y #ptional
 
 ```
-4. For best experience, enable ssh
+ For best experience, enable ssh
 
 ```
  nano /etc/ssh/sshd_config
@@ -52,7 +52,7 @@ CTRL X and enter
 
 sudo service ssh restart
 ```
-5. Start Hacking
+Your done, Start Hacking!
 
    
 Toolset:
