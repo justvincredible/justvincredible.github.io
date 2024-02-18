@@ -23,13 +23,19 @@ Dependecies:
    python
    pip
 
-1. Setup
+ Setup
+
+
+```
+git clone https://github.com/justvincredible/justvincredible.github.io.git
+```
 
 ```
    cd shogunos
-   sudo chmod +x shogun.sh
-   ./shogun.sh (sudo)
 
+   sudo chmod +x shogun.sh
+
+   ./shogun.sh (sudo)
 ```
  For best experience, enable ssh
 
